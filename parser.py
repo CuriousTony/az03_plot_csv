@@ -1,5 +1,7 @@
-import csv
+# Необходимо спарсить цены на диваны с сайта divan.ru в csv файл,
+# обработать данные
 
+import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
